@@ -1,0 +1,352 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* a{
+    color: white; */
+    /* background: -webkit-linear-gradient(top, black 0%, black 50%, black 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* text-decoration: none;
+    transition:color.5s;
+} */
+/* a:hover{
+    color: blue;
+    background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+.ul {
+    list-style: none;
+  }
+/* header */
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    position: relative;
+    padding: 20px 0px;
+}
+.header-title{
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fly-page{
+}
+.home{
+    color: white;
+    text-decoration: none;
+    transition:color.5s;
+}
+.home:hover{
+    color: blue;
+    background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Activities{
+    color: white;
+    text-decoration: none;
+    transition:color.5s;
+}
+.Activities:hover{
+    color: blue;
+    background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact{
+    color: white;
+    text-decoration: none;
+    transition:color.5s;
+}
+.contact:hover{
+    color: blue;
+    background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* profile */
+.profile{
+    position: relative;
+    display: flex;
+}
+.sentence{
+    padding: 100px 0px;
+}
+.name{
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 50px;
+    color: black;
+    background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.occupation{
+    font-size: 25px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px 0px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.slack{
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.years{
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hobby{
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.profile-img{
+    padding: 80px 250px;
+    position: relative;
+    /* width: 300px;
+    height: 300px; */
+    border-radius: 50%;
+    width:  300px;
+    height: 300px;
+}
+footer{
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+/* active */
+.active{
+}
+.active-title{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active-title-img{
+    position: absolute;
+    width: 1450px;
+    height: 4150px;
+}
+.actives{
+    position: relative;
+    padding: 0px 100px;
+}
+.active1{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    position: relative;
+    width: 70%;
+    transition:.3s;
+    border-radius: 10px;
+}
+.img1:hover{
+    width: 80%;
+}
+.img1-sentence{
+    font-size: 59px;
+    /* padding: 0px 60px; */
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active2{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.img2{
+    position: relative;
+    width: 40%;
+    transition:.3s;
+    border-radius: 10px;
+}
+.img2:hover{
+    width: 45%;
+}
+.img2-sentence{
+    font-size: 59px;
+    padding: 0px 100px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active3{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.img3{
+    position: relative;
+    width: 50%;
+    transition:.3s;
+    border-radius: 10px;
+}
+.img3:hover{
+    width: 55%;
+}
+.img3-sentence{
+    font-size: 59px;
+    padding: 0px 60px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active4{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.img4{
+    position: relative;
+    width: 50%;
+    transition:.3s;
+    border-radius: 10px;
+}
+.img4:hover{
+    width: 55%;
+}
+.img4-sentence{
+    font-size: 59px;
+    padding: 0px 60px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active5{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.img5{
+    position: relative;
+    width: 50%;
+    transition:.3s;
+    border-radius: 10px;
+}
+.img5:hover{
+    width: 55%;
+}
+.img5-sentence{
+    font-size: 59px;
+    padding: 0px 60px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.active6{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.img6{
+    position: relative;
+    width: 50%;
+    transition:.3s;
+    border-radius: 10px;
+}
+.img6:hover{
+    width: 55%;
+}
+.img6-sentence{
+    font-size: 59px;
+    padding: 0px 60px;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* contact */
+.formURL{
+    padding: 0px 500px;
+    position: relative;
+    font-size: 60px;
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+    transition:color.5s;
+}
+.formURL:hover{
+    color: blue;
+    background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.formSentence{
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    text-align: center;
+    color: black;
+    background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.at-social {
+    margin: 0 0 -18px;
+    padding: 0px 100px;
+    opacity: 1;
+    /* -webkit-transition: margin  ease, opacity 10s ease;
+    transition: margin 10s ease, opacity 10s ease; */
+  }
+  .at-social__item {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .at-social__item a {
+    position: relative;
+    display: block;
+  }
+  .at-social__item svg {
+    position: relative;
+    fill: white;
+    display: block;
+    height: 18px;
+    -webkit-transition: fill 0.2s ease;
+    transition: fill 0.2s ease;
+  }
+  .at-social__item svg:hover {
+    fill: blue;
+  }
