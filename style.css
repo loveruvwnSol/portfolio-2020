@@ -461,6 +461,11 @@ footer{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
+    .title-img{
+        position: absolute;
+        width: 400px;
+        height: 900px;
+    }
      /* active */
   .active-title{
     position: relative;
@@ -652,9 +657,10 @@ hr{
     }
     /* contact */
 .formURL{
-    padding: 0px 40px;
+    padding: 0px 72px;
     position: relative;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
     color: white;
     text-decoration: none;
     text-decoration: underline;
