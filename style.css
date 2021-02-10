@@ -409,8 +409,6 @@ footer{
     .profile-img{
         padding: 80px 20px;
         position: relative;
-        /* width: 300px;
-        height: 300px; */
         border-radius: 50%;
         width:  100px;
         height: 100px;
@@ -419,8 +417,6 @@ footer{
         padding: 80px 0px;
     }
     .name{
-        /* display: flex;
-        flex-direction: column; */
         font-size: 35px;
         color: black;
         background: -webkit-linear-gradient(top, blue 0%, blue 50%, blue 51%, skyblue 100%);
@@ -434,8 +430,6 @@ footer{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         padding: 0px 0px;
-        /* display: flex;
-        flex-direction: column; */
     }
     
     .details{
@@ -512,7 +506,7 @@ hr{
     width: 100%;
 }
 .img1-sentence{
-    font-size: 30px;
+    font-size: 25px;
     /* padding: 0px 60px; */
     color: black;
     background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, lightgray 100%);
@@ -582,7 +576,7 @@ hr{
         width: 100%;
     }
     .img4-sentence{
-        font-size: 25px;
+        font-size: 22px;
         padding: 0px 0px;
         color: black;
         background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
@@ -626,7 +620,7 @@ hr{
         width: 100%;
     }
     .img6-sentence{
-        font-size: 25px;
+        font-size: 22px;
         padding: 0px 0px;
         color: black;
         background: -webkit-linear-gradient(top, white 0%, white 50%, white 51%, gray 100%);
